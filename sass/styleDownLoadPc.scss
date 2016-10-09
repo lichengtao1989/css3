@@ -42,7 +42,7 @@ body {
 .top_lct2 {
     height: 653px;
     background: url('../images/5.jpg') no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .top_lct_inner2 {
@@ -80,7 +80,7 @@ body {
 }
 
 .android {
-    @include baimg('../images/3.png');
+    @include baimg('../images/4.png');
     @include block;
     @include wh(174px,
     56px);
